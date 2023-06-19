@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "pivotal.vscode-spring-boot",
+    "rangav.vscode-thunder-client",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-maven"
+  ]
+}

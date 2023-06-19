@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/project
+    username: pc
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show_sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+
+application:
+  security:
+    jwt:
+      expiration: 86400000 # 24 hours in milliseconds
+
+  
